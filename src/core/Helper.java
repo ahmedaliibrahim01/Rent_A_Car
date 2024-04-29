@@ -8,7 +8,7 @@ public class Helper {
 
     public static void setTheme() {
       //
-        optionPaneTR();
+        //optionPaneTR();
         for (UIManager.LookAndFeelInfo info : UIManager.getInstalledLookAndFeels()) {
             if ("Nimbus".equals(info.getName())) {
                 try {

@@ -6,7 +6,7 @@ import java.sql.DriverManager;
 public class Database {
     private static final String DB_URL = "jdbc:postgresql://localhost:5432/rentacar";
     private static final String DB_USER = "postgres";
-    private static final String DB_PASS = "ahmed0615592573";
+    private static final String DB_PASS = "postgres";
 
 
     public static Connection connection(){

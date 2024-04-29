@@ -58,7 +58,6 @@ public class BrandManager {
         for (Model model : this.modelManager.getByListBrandId(id)) {
             this.modelManager.delete(model.getId());
         }
-
         return this.brandDao.delete(id);
     }
 }
